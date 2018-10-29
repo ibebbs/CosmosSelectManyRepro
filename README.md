@@ -1,6 +1,10 @@
 # CosmosSelectManyRepro
 Reproduction of [SelectMany doesn't work after Select](https://github.com/Azure/azure-cosmosdb-dotnet/issues/91#issuecomment-432037836) issue.
 
+# Environment
+Nunit test (with VS Test adapter) which uses the [CosmosDB local emulator](https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator)
+
+# Issue
 The query:
 
 ```
